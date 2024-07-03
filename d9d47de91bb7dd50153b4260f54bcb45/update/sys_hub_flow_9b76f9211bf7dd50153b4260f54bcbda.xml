@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>demo_test_trivia_spoke</internal_name>
+        <label_cache>[{"name":"6796bce5-ada1-484a-8a8a-5c4363fc7c0d.__dont_treat_as_error__","label":"2 - demo Get Trivia Answer➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d82c3b73-5b8f-4268-b896-5ceaa8fbebe2"}},{"name":"6796bce5-ada1-484a-8a8a-5c4363fc7c0d.__action_status__","label":"2 - demo Get Trivia Answer➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDeccc0e65687bdd50d0e1ccbc298d3cd2","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"df6f2a61-d570-4098-b50a-0147300e992e"}},{"name":"6796bce5-ada1-484a-8a8a-5c4363fc7c0d.answer","label":"2 - demo Get Trivia Answer➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"4248e89b-1ac3-4e5a-8f39-373ad38f6f8e"}},{"name":"a644307d-79e8-4b45-bb63-5b48eb22e3b6.difficulty","label":"1 - Get Trivia Question➛Difficulty","reference_display":"Difficulty","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2414256e-506e-4cfc-9daa-aacf575b3abc"}},{"name":"a644307d-79e8-4b45-bb63-5b48eb22e3b6.question","label":"1 - Get Trivia Question➛Question","reference_display":"Question","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6a4564b2-9007-4494-b17b-e17ba917c923"}},{"name":"a644307d-79e8-4b45-bb63-5b48eb22e3b6.category","label":"1 - Get Trivia Question➛Category","reference_display":"Category","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"71038982-4dae-4ce0-be41-f6a98c798d0d"}},{"name":"a644307d-79e8-4b45-bb63-5b48eb22e3b6.question_id","label":"1 - Get Trivia Question➛Question ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ef158244-465b-4879-8b11-42229bc15d7e"}},{"name":"a644307d-79e8-4b45-bb63-5b48eb22e3b6.__action_status__","label":"1 - Get Trivia Question➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"df6f2a61-d570-4098-b50a-0147300e992e"}},{"name":"a644307d-79e8-4b45-bb63-5b48eb22e3b6.__dont_treat_as_error__","label":"1 - Get Trivia Question➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"d82c3b73-5b8f-4268-b896-5ceaa8fbebe2"}},{"name":"e8fe50c9-ef8b-4c33-9a28-25002e00505f.answer","label":"2 - Get Trivia Answer➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"37b2a9b6-1be7-4880-b10a-804c63aaee61"}},{"name":"e8fe50c9-ef8b-4c33-9a28-25002e00505f.__action_status__","label":"2 - Get Trivia Answer➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e41f91e4-f027-4807-9c07-2fbe2072e874"}},{"name":"e8fe50c9-ef8b-4c33-9a28-25002e00505f.__dont_treat_as_error__","label":"2 - Get Trivia Answer➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"81bb38ed-e145-44a1-9324-09c847b09ebb"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>demo test trivia spoke</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-16 02:18:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b76f9211bf7dd50153b4260f54bcbda</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>demo test trivia spoke</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="demo trivia app" source="x_snc_trivia_demo">d9d47de91bb7dd50153b4260f54bcb45</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo trivia app">d9d47de91bb7dd50153b4260f54bcb45</sys_scope>
+        <sys_update_name>sys_hub_flow_9b76f9211bf7dd50153b4260f54bcbda</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-16 04:26:53</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9b76f9211bf7dd50153b4260f54bcbda^sys_idNOT IN38c679611bf7dd50153b4260f54bcb5e"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="demo test trivia spoke">9b76f9211bf7dd50153b4260f54bcbda</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-16 02:19:27</sys_created_on>
+        <sys_id>38c679611bf7dd50153b4260f54bcb5e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-16 04:26:52</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=38c679611bf7dd50153b4260f54bcb5e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>38c679611bf7dd50153b4260f54bcb5e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-16 02:19:27</sys_created_on>
+        <sys_id>fcc679611bf7dd50153b4260f54bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-16 02:19:27</sys_updated_on>
+        <value>2022-12-29 01:00:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=38c679611bf7dd50153b4260f54bcb5e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9b76f9211bf7dd50153b4260f54bcbda^sys_idNOT IN1b76f9211bf7dd50153b4260f54bcbdb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9b76f9211bf7dd50153b4260f54bcbda</id>
+        <name>demo test trivia spoke</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-16 02:18:14</sys_created_on>
+        <sys_id>1b76f9211bf7dd50153b4260f54bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-16 02:18:14</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1b76f9211bf7dd50153b4260f54bcbdb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9b76f9211bf7dd50153b4260f54bcbda^sys_idNOT INa3e312a11bbbdd50153b4260f54bcbf3,f0c679611bf7dd50153b4260f54bcb6b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Trivia Answer">4c5316211bbbdd50153b4260f54bcbee</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="demo test trivia spoke">9b76f9211bf7dd50153b4260f54bcbda</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-16 04:26:52</sys_created_on>
+        <sys_id>a3e312a11bbbdd50153b4260f54bcbf3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="demo trivia app">d9d47de91bb7dd50153b4260f54bcb45</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-16 04:26:52</sys_updated_on>
+        <ui_id>e8fe50c9-ef8b-4c33-9a28-25002e00505f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a3e312a11bbbdd50153b4260f54bcbf3"/>
+    <sys_element_mapping action="delete_multiple" query="id=a3e312a11bbbdd50153b4260f54bcbf3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>question_id</field>
+        <id>a3e312a11bbbdd50153b4260f54bcbf3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-16 04:26:52</sys_created_on>
+        <sys_id>ebe312a11bbbdd50153b4260f54bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-16 04:26:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4c5316211bbbdd50153b4260f54bcbee</table>
+        <value>{{a644307d-79e8-4b45-bb63-5b48eb22e3b6.question_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a3e312a11bbbdd50153b4260f54bcbf3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a3e312a11bbbdd50153b4260f54bcbf3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Trivia Question">f555f1ed1bb7dd50153b4260f54bcb4d</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="demo test trivia spoke">9b76f9211bf7dd50153b4260f54bcbda</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-16 02:19:27</sys_created_on>
+        <sys_id>f0c679611bf7dd50153b4260f54bcb6b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="demo trivia app">d9d47de91bb7dd50153b4260f54bcb45</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-16 04:26:52</sys_updated_on>
+        <ui_id>a644307d-79e8-4b45-bb63-5b48eb22e3b6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f0c679611bf7dd50153b4260f54bcb6b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f0c679611bf7dd50153b4260f54bcb6b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f0c679611bf7dd50153b4260f54bcb6b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9b76f9211bf7dd50153b4260f54bcbda"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9b76f9211bf7dd50153b4260f54bcbda"/>
+</record_update>

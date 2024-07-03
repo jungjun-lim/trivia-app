@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDeccc0e65687bdd50d0e1ccbc298d3cd2</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>d9d47de91bb7dd50153b4260f54bcb45</scope_name>
+        <serialized_content>{"FlowDesigner:FDeccc0e65687bdd50d0e1ccbc298d3cd2":{},"FlowDesigner:FDeccc0e65687bdd50d0e1ccbc298d3cd2.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"df6f2a61-d570-4098-b50a-0147300e992e\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDeccc0e65687bdd50d0e1ccbc298d3cd2\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-16 03:55:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0cc0e651b7bdd50153b4260f54bcbd3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FDeccc0e65687bdd50d0e1ccbc298d3cd2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="demo trivia app" source="x_snc_trivia_demo">d9d47de91bb7dd50153b4260f54bcb45</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo trivia app">d9d47de91bb7dd50153b4260f54bcb45</sys_scope>
+        <sys_update_name>sys_complex_object_e0cc0e651b7bdd50153b4260f54bcbd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-16 04:07:17</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
